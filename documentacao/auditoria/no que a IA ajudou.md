@@ -48,8 +48,7 @@
 
 ## 17/11/2026 — Identificação completa (P006)
 
-- Atualização do nome para Tiago Oliveira Lima nos documentos ativos, no notebook e no gerador.
-- Regeneração e conferência do relatório, preservando resultados numéricos e saídas executadas do notebook.
+- Inserir nomes dos alunos, informações do trabalho, informações em geral.
 
 ## 17/11/2026 — Nome completo do colega (P007)
 
@@ -60,4 +59,3 @@
 
 - Incorporação da distribuição de tarefas das Partes 1 e 2 enviada pelo usuário, com o nome completo confirmado de Noberto.
 - Atualização da matriz no notebook e no relatório e das pendências atuais no README e AGENTS; apoio da IA mantido em linha própria.
-- As tarefas humanas são declarações do usuário, sem atribuir sua execução à IA. As pendências de declaração nos registros anteriores descrevem o estado de cada etapa e foram resolvidas por P008.
