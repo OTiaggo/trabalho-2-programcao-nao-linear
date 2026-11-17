@@ -1,0 +1,2456 @@
+{
+  "problema": "TP3",
+  "metodo": "Gradiente",
+  "x0": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "parametros": {
+    "tol_grad": 1e-05,
+    "tol_f": 1e-07,
+    "max_iter": 1000,
+    "c_goldstein": 0.1,
+    "passo_inicial": 1.0,
+    "max_busca": 100,
+    "curvatura_relativa": 1e-10,
+    "descida_relativa": 1e-12
+  },
+  "status": "variacao_objetivo",
+  "detalhe": "",
+  "iteracoes": 28,
+  "x_final": [
+    0.0004706382751464844,
+    0.00029087066650390625,
+    6.103515625e-05
+  ],
+  "f_final": 1.2809800864488352e-07,
+  "norma_grad_final": 0.0005592419700607814,
+  "avaliacoes_f": 78,
+  "avaliacoes_g": 29,
+  "trajetoria": [
+    {
+      "k": 0,
+      "x": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "f": 4.0,
+      "gradiente": [
+        0.0,
+        2.0,
+        6.0
+      ],
+      "norma_grad": 6.324555320336759,
+      "avaliacoes_f": 1,
+      "avaliacoes_g": 1
+    },
+    {
+      "k": 1,
+      "x": [
+        1.0,
+        0.5,
+        -0.5
+      ],
+      "f": 1.25,
+      "gradiente": [
+        1.0,
+        0.0,
+        -3.0
+      ],
+      "norma_grad": 3.1622776601683795,
+      "avaliacoes_f": 4,
+      "avaliacoes_g": 2
+    },
+    {
+      "k": 2,
+      "x": [
+        0.75,
+        0.5,
+        0.25
+      ],
+      "f": 0.5,
+      "gradiente": [
+        0.5,
+        0.5,
+        1.5
+      ],
+      "norma_grad": 1.6583123951777,
+      "avaliacoes_f": 7,
+      "avaliacoes_g": 3
+    },
+    {
+      "k": 3,
+      "x": [
+        0.625,
+        0.375,
+        -0.125
+      ],
+      "f": 0.25,
+      "gradiente": [
+        0.5,
+        0.25,
+        -0.75
+      ],
+      "norma_grad": 0.9354143466934853,
+      "avaliacoes_f": 10,
+      "avaliacoes_g": 4
+    },
+    {
+      "k": 4,
+      "x": [
+        0.5,
+        0.3125,
+        0.0625
+      ],
+      "f": 0.14453125,
+      "gradiente": [
+        0.375,
+        0.25,
+        0.375
+      ],
+      "norma_grad": 0.5863019699779287,
+      "avaliacoes_f": 13,
+      "avaliacoes_g": 5
+    },
+    {
+      "k": 5,
+      "x": [
+        0.3125,
+        0.1875,
+        -0.125
+      ],
+      "f": 0.09765625,
+      "gradiente": [
+        0.25,
+        0.125,
+        -0.75
+      ],
+      "norma_grad": 0.8003905296791061,
+      "avaliacoes_f": 15,
+      "avaliacoes_g": 6
+    },
+    {
+      "k": 6,
+      "x": [
+        0.25,
+        0.15625,
+        0.0625
+      ],
+      "f": 0.044921875,
+      "gradiente": [
+        0.1875,
+        0.125,
+        0.375
+      ],
+      "norma_grad": 0.4375,
+      "avaliacoes_f": 18,
+      "avaliacoes_g": 7
+    },
+    {
+      "k": 7,
+      "x": [
+        0.203125,
+        0.125,
+        -0.03125
+      ],
+      "f": 0.024658203125,
+      "gradiente": [
+        0.15625,
+        0.09375,
+        -0.1875
+      ],
+      "norma_grad": 0.2614562582918986,
+      "avaliacoes_f": 21,
+      "avaliacoes_g": 8
+    },
+    {
+      "k": 8,
+      "x": [
+        0.125,
+        0.078125,
+        0.0625
+      ],
+      "f": 0.02001953125,
+      "gradiente": [
+        0.09375,
+        0.0625,
+        0.375
+      ],
+      "norma_grad": 0.3915613776919271,
+      "avaliacoes_f": 23,
+      "avaliacoes_g": 9
+    },
+    {
+      "k": 9,
+      "x": [
+        0.1015625,
+        0.0625,
+        -0.03125
+      ],
+      "f": 0.00836181640625,
+      "gradiente": [
+        0.078125,
+        0.046875,
+        -0.1875
+      ],
+      "norma_grad": 0.20846350100197397,
+      "avaliacoes_f": 26,
+      "avaliacoes_g": 10
+    },
+    {
+      "k": 10,
+      "x": [
+        0.08203125,
+        0.05078125,
+        0.015625
+      ],
+      "f": 0.0042877197265625,
+      "gradiente": [
+        0.0625,
+        0.0390625,
+        0.09375
+      ],
+      "norma_grad": 0.11925263689432615,
+      "avaliacoes_f": 29,
+      "avaliacoes_g": 11
+    },
+    {
+      "k": 11,
+      "x": [
+        0.06640625,
+        0.041015625,
+        -0.0078125
+      ],
+      "f": 0.00251007080078125,
+      "gradiente": [
+        0.05078125,
+        0.03125,
+        -0.046875
+      ],
+      "norma_grad": 0.07584565562088906,
+      "avaliacoes_f": 32,
+      "avaliacoes_g": 12
+    },
+    {
+      "k": 12,
+      "x": [
+        0.041015625,
+        0.025390625,
+        0.015625
+      ],
+      "f": 0.001621246337890625,
+      "gradiente": [
+        0.03125,
+        0.01953125,
+        0.09375
+      ],
+      "norma_grad": 0.10073278873615334,
+      "avaliacoes_f": 34,
+      "avaliacoes_g": 13
+    },
+    {
+      "k": 13,
+      "x": [
+        0.033203125,
+        0.0205078125,
+        -0.0078125
+      ],
+      "f": 0.0007648468017578125,
+      "gradiente": [
+        0.025390625,
+        0.015625,
+        -0.046875
+      ],
+      "norma_grad": 0.05555258848956208,
+      "avaliacoes_f": 37,
+      "avaliacoes_g": 14
+    },
+    {
+      "k": 14,
+      "x": [
+        0.02685546875,
+        0.0166015625,
+        0.00390625
+      ],
+      "f": 0.0004265308380126953,
+      "gradiente": [
+        0.0205078125,
+        0.0126953125,
+        0.0234375
+      ],
+      "norma_grad": 0.03363120187055188,
+      "avaliacoes_f": 40,
+      "avaliacoes_g": 15
+    },
+    {
+      "k": 15,
+      "x": [
+        0.0166015625,
+        0.01025390625,
+        -0.0078125
+      ],
+      "f": 0.0003285408020019531,
+      "gradiente": [
+        0.0126953125,
+        0.0078125,
+        -0.046875
+      ],
+      "norma_grad": 0.049188126013527456,
+      "avaliacoes_f": 42,
+      "avaliacoes_g": 16
+    },
+    {
+      "k": 16,
+      "x": [
+        0.013427734375,
+        0.00830078125,
+        0.00390625
+      ],
+      "f": 0.00014096498489379883,
+      "gradiente": [
+        0.01025390625,
+        0.00634765625,
+        0.0234375
+      ],
+      "norma_grad": 0.026358143703644102,
+      "avaliacoes_f": 45,
+      "avaliacoes_g": 17
+    },
+    {
+      "k": 17,
+      "x": [
+        0.0108642578125,
+        0.0067138671875,
+        -0.001953125
+      ],
+      "f": 7.374584674835205e-05,
+      "gradiente": [
+        0.00830078125,
+        0.005126953125,
+        -0.01171875
+      ],
+      "norma_grad": 0.015248531708620304,
+      "avaliacoes_f": 48,
+      "avaliacoes_g": 18
+    },
+    {
+      "k": 18,
+      "x": [
+        0.0087890625,
+        0.00543212890625,
+        0.0009765625
+      ],
+      "f": 4.363805055618286e-05,
+      "gradiente": [
+        0.0067138671875,
+        0.004150390625,
+        0.005859375
+      ],
+      "norma_grad": 0.009830260949847774,
+      "avaliacoes_f": 51,
+      "avaliacoes_g": 19
+    },
+    {
+      "k": 19,
+      "x": [
+        0.00543212890625,
+        0.00335693359375,
+        -0.001953125
+      ],
+      "f": 2.7019530534744263e-05,
+      "gradiente": [
+        0.004150390625,
+        0.0025634765625,
+        -0.01171875
+      ],
+      "norma_grad": 0.012693551748390782,
+      "avaliacoes_f": 53,
+      "avaliacoes_g": 20
+    },
+    {
+      "k": 20,
+      "x": [
+        0.00439453125,
+        0.002716064453125,
+        0.0009765625
+      ],
+      "f": 1.3055279850959778e-05,
+      "gradiente": [
+        0.00335693359375,
+        0.0020751953125,
+        0.005859375
+      ],
+      "norma_grad": 0.0070645392014266764,
+      "avaliacoes_f": 56,
+      "avaliacoes_g": 21
+    },
+    {
+      "k": 21,
+      "x": [
+        0.0035552978515625,
+        0.002197265625,
+        -0.00048828125
+      ],
+      "f": 7.3874834924936295e-06,
+      "gradiente": [
+        0.002716064453125,
+        0.001678466796875,
+        -0.0029296875
+      ],
+      "norma_grad": 0.004333281175898615,
+      "avaliacoes_f": 59,
+      "avaliacoes_g": 22
+    },
+    {
+      "k": 22,
+      "x": [
+        0.002197265625,
+        0.0013580322265625,
+        0.0009765625
+      ],
+      "f": 5.409587174654007e-06,
+      "gradiente": [
+        0.001678466796875,
+        0.00103759765625,
+        0.005859375
+      ],
+      "norma_grad": 0.006182728772564127,
+      "avaliacoes_f": 61,
+      "avaliacoes_g": 23
+    },
+    {
+      "k": 23,
+      "x": [
+        0.00177764892578125,
+        0.0010986328125,
+        -0.00048828125
+      ],
+      "f": 2.383312676101923e-06,
+      "gradiente": [
+        0.0013580322265625,
+        0.0008392333984375,
+        -0.0029296875
+      ],
+      "norma_grad": 0.0033364102075571444,
+      "avaliacoes_f": 64,
+      "avaliacoes_g": 24
+    },
+    {
+      "k": 24,
+      "x": [
+        0.001438140869140625,
+        0.000888824462890625,
+        0.000244140625
+      ],
+      "f": 1.270571374334395e-06,
+      "gradiente": [
+        0.0010986328125,
+        0.00067901611328125,
+        0.00146484375
+      ],
+      "norma_grad": 0.0019529014697908592,
+      "avaliacoes_f": 67,
+      "avaliacoes_g": 25
+    },
+    {
+      "k": 25,
+      "x": [
+        0.001163482666015625,
+        0.0007190704345703125,
+        -0.0001220703125
+      ],
+      "f": 7.59268004912883e-07,
+      "gradiente": [
+        0.000888824462890625,
+        0.00054931640625,
+        -0.000732421875
+      ],
+      "norma_grad": 0.0012760091077209201,
+      "avaliacoes_f": 70,
+      "avaliacoes_g": 26
+    },
+    {
+      "k": 26,
+      "x": [
+        0.0007190704345703125,
+        0.0004444122314453125,
+        0.000244140625
+      ],
+      "f": 4.5175329432822764e-07,
+      "gradiente": [
+        0.00054931640625,
+        0.000339508056640625,
+        0.00146484375
+      ],
+      "norma_grad": 0.001600868966097279,
+      "avaliacoes_f": 72,
+      "avaliacoes_g": 27
+    },
+    {
+      "k": 27,
+      "x": [
+        0.0005817413330078125,
+        0.00035953521728515625,
+        -0.0001220703125
+      ],
+      "f": 2.23344613914378e-07,
+      "gradiente": [
+        0.0004444122314453125,
+        0.000274658203125,
+        -0.000732421875
+      ],
+      "norma_grad": 0.0008996561359656096,
+      "avaliacoes_f": 75,
+      "avaliacoes_g": 28
+    },
+    {
+      "k": 28,
+      "x": [
+        0.0004706382751464844,
+        0.00029087066650390625,
+        6.103515625e-05
+      ],
+      "f": 1.2809800864488352e-07,
+      "gradiente": [
+        0.00035953521728515625,
+        0.00022220611572265625,
+        0.0003662109375
+      ],
+      "norma_grad": 0.0005592419700607814,
+      "avaliacoes_f": 78,
+      "avaliacoes_g": 29
+    }
+  ],
+  "passos": [
+    {
+      "k": 0,
+      "x": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direcao": [
+        -0.0,
+        -2.0,
+        -6.0
+      ],
+      "gTd": -40.0,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 1.25,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 80.0,
+            "cota_inferior": -32.0,
+            "cota_superior": 0.0
+          },
+          {
+            "alfa": 0.5,
+            "custo": 13.0,
+            "cota_inferior": -14.0,
+            "cota_superior": 2.0
+          },
+          {
+            "alfa": 0.25,
+            "custo": 1.25,
+            "cota_inferior": -5.0,
+            "cota_superior": 3.0
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -5.0,
+        "cota_superior": 3.0
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 4.0
+        },
+        {
+          "alfa": 1.0,
+          "f": 80.0
+        },
+        {
+          "alfa": 0.5,
+          "f": 13.0
+        },
+        {
+          "alfa": 0.25,
+          "f": 1.25
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.6875,
+      "avaliacoes_f": 4,
+      "avaliacoes_g": 2
+    },
+    {
+      "k": 1,
+      "x": [
+        1.0,
+        0.5,
+        -0.5
+      ],
+      "direcao": [
+        -1.0,
+        -0.0,
+        3.0
+      ],
+      "gTd": -10.0,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.5,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 19.25,
+            "cota_inferior": -7.75,
+            "cota_superior": 0.25
+          },
+          {
+            "alfa": 0.5,
+            "custo": 3.25,
+            "cota_inferior": -3.25,
+            "cota_superior": 0.75
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.5,
+            "cota_inferior": -1.0,
+            "cota_superior": 1.0
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -1.0,
+        "cota_superior": 1.0
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 1.25
+        },
+        {
+          "alfa": 1.0,
+          "f": 19.25
+        },
+        {
+          "alfa": 0.5,
+          "f": 3.25
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.5
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.6,
+      "avaliacoes_f": 7,
+      "avaliacoes_g": 3
+    },
+    {
+      "k": 2,
+      "x": [
+        0.75,
+        0.5,
+        0.25
+      ],
+      "direcao": [
+        -0.5,
+        -0.5,
+        -1.5
+      ],
+      "gTd": -2.75,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.25,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 4.75,
+            "cota_inferior": -1.975,
+            "cota_superior": 0.22499999999999998
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.875,
+            "cota_inferior": -0.7375,
+            "cota_superior": 0.3625
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.25,
+            "cota_inferior": -0.11875000000000002,
+            "cota_superior": 0.43125
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.11875000000000002,
+        "cota_superior": 0.43125
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.5
+        },
+        {
+          "alfa": 1.0,
+          "f": 4.75
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.875
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.25
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.25,
+      "avaliacoes_f": 10,
+      "avaliacoes_g": 4
+    },
+    {
+      "k": 3,
+      "x": [
+        0.625,
+        0.375,
+        -0.125
+      ],
+      "direcao": [
+        -0.5,
+        -0.25,
+        0.75
+      ],
+      "gTd": -0.875,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.14453125,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 1.1875,
+            "cota_inferior": -0.5375,
+            "cota_superior": 0.16249999999999998
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.265625,
+            "cota_inferior": -0.14375,
+            "cota_superior": 0.20625
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.14453125,
+            "cota_inferior": 0.053125000000000006,
+            "cota_superior": 0.228125
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 0.053125000000000006,
+        "cota_superior": 0.228125
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.25
+        },
+        {
+          "alfa": 1.0,
+          "f": 1.1875
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.265625
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.14453125
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.10546875,
+      "avaliacoes_f": 13,
+      "avaliacoes_g": 5
+    },
+    {
+      "k": 4,
+      "x": [
+        0.5,
+        0.3125,
+        0.0625
+      ],
+      "direcao": [
+        -0.375,
+        -0.25,
+        -0.375
+      ],
+      "gTd": -0.34375,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 0.09765625,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.30078125,
+            "cota_inferior": -0.16484375,
+            "cota_superior": 0.11015625
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.09765625,
+            "cota_inferior": -0.010156250000000006,
+            "cota_superior": 0.12734375
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.010156250000000006,
+        "cota_superior": 0.12734375
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.14453125
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.30078125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.09765625
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.046875,
+      "avaliacoes_f": 15,
+      "avaliacoes_g": 6
+    },
+    {
+      "k": 5,
+      "x": [
+        0.3125,
+        0.1875,
+        -0.125
+      ],
+      "direcao": [
+        -0.25,
+        -0.125,
+        0.75
+      ],
+      "gTd": -0.640625,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.044921875,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 1.17578125,
+            "cota_inferior": -0.47890625,
+            "cota_superior": 0.03359374999999999
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.20703125,
+            "cota_inferior": -0.190625,
+            "cota_superior": 0.06562499999999999
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.044921875,
+            "cota_inferior": -0.046484374999999994,
+            "cota_superior": 0.081640625
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.046484374999999994,
+        "cota_superior": 0.081640625
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.09765625
+        },
+        {
+          "alfa": 1.0,
+          "f": 1.17578125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.20703125
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.044921875
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.052734375,
+      "avaliacoes_f": 18,
+      "avaliacoes_g": 7
+    },
+    {
+      "k": 6,
+      "x": [
+        0.25,
+        0.15625,
+        0.0625
+      ],
+      "direcao": [
+        -0.1875,
+        -0.125,
+        -0.375
+      ],
+      "gTd": -0.19140625,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.024658203125,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.294921875,
+            "cota_inferior": -0.12734375,
+            "cota_superior": 0.02578125
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.0595703125,
+            "cota_inferior": -0.0412109375,
+            "cota_superior": 0.0353515625
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.024658203125,
+            "cota_inferior": 0.0018554687499999986,
+            "cota_superior": 0.04013671875
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 0.0018554687499999986,
+        "cota_superior": 0.04013671875
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.044921875
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.294921875
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.0595703125
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.024658203125
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.020263671875,
+      "avaliacoes_f": 21,
+      "avaliacoes_g": 8
+    },
+    {
+      "k": 7,
+      "x": [
+        0.203125,
+        0.125,
+        -0.03125
+      ],
+      "direcao": [
+        -0.15625,
+        -0.09375,
+        0.1875
+      ],
+      "gTd": -0.068359375,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 0.02001953125,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.074462890625,
+            "cota_inferior": -0.036865234375,
+            "cota_superior": 0.017822265625
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.02001953125,
+            "cota_inferior": -0.006103515625,
+            "cota_superior": 0.021240234375
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.006103515625,
+        "cota_superior": 0.021240234375
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.024658203125
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.074462890625
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.02001953125
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.004638671875,
+      "avaliacoes_f": 23,
+      "avaliacoes_g": 9
+    },
+    {
+      "k": 8,
+      "x": [
+        0.125,
+        0.078125,
+        0.0625
+      ],
+      "direcao": [
+        -0.09375,
+        -0.0625,
+        -0.375
+      ],
+      "gTd": -0.1533203125,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.00836181640625,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.29345703125,
+            "cota_inferior": -0.11796875000000001,
+            "cota_superior": 0.004687499999999999
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.050048828125,
+            "cota_inferior": -0.048974609375000006,
+            "cota_superior": 0.012353515624999999
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.00836181640625,
+            "cota_inferior": -0.014477539062500003,
+            "cota_superior": 0.0161865234375
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.014477539062500003,
+        "cota_superior": 0.0161865234375
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.02001953125
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.29345703125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.050048828125
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.00836181640625
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.01165771484375,
+      "avaliacoes_f": 26,
+      "avaliacoes_g": 10
+    },
+    {
+      "k": 9,
+      "x": [
+        0.1015625,
+        0.0625,
+        -0.03125
+      ],
+      "direcao": [
+        -0.078125,
+        -0.046875,
+        0.1875
+      ],
+      "gTd": -0.04345703125,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.0042877197265625,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.07354736328125,
+            "cota_inferior": -0.030749511718750004,
+            "cota_superior": 0.00401611328125
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.0137939453125,
+            "cota_inferior": -0.011193847656250002,
+            "cota_superior": 0.00618896484375
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.0042877197265625,
+            "cota_inferior": -0.001416015625000001,
+            "cota_superior": 0.007275390625
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.001416015625000001,
+        "cota_superior": 0.007275390625
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.00836181640625
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.07354736328125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.0137939453125
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.0042877197265625
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.0040740966796875,
+      "avaliacoes_f": 29,
+      "avaliacoes_g": 11
+    },
+    {
+      "k": 10,
+      "x": [
+        0.08203125,
+        0.05078125,
+        0.015625
+      ],
+      "direcao": [
+        -0.0625,
+        -0.0390625,
+        -0.09375
+      ],
+      "gTd": -0.01422119140625,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.00251007080078125,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.0185089111328125,
+            "cota_inferior": -0.008511352539062501,
+            "cota_superior": 0.0028656005859375
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.0042877197265625,
+            "cota_inferior": -0.0021118164062500005,
+            "cota_superior": 0.00357666015625
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.00251007080078125,
+            "cota_inferior": 0.0010879516601562497,
+            "cota_superior": 0.00393218994140625
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 0.0010879516601562497,
+        "cota_superior": 0.00393218994140625
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.0042877197265625
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.0185089111328125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.0042877197265625
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.00251007080078125
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.00177764892578125,
+      "avaliacoes_f": 32,
+      "avaliacoes_g": 12
+    },
+    {
+      "k": 11,
+      "x": [
+        0.06640625,
+        0.041015625,
+        -0.0078125
+      ],
+      "direcao": [
+        -0.05078125,
+        -0.03125,
+        0.046875
+      ],
+      "gTd": -0.0057525634765625,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 0.001621246337890625,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.00470733642578125,
+            "cota_inferior": -0.002667236328125,
+            "cota_superior": 0.001934814453125
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.001621246337890625,
+            "cota_inferior": -7.858276367187509e-05,
+            "cota_superior": 0.002222442626953125
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -7.858276367187509e-05,
+        "cota_superior": 0.002222442626953125
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.00251007080078125
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.00470733642578125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.001621246337890625
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.000888824462890625,
+      "avaliacoes_f": 34,
+      "avaliacoes_g": 13
+    },
+    {
+      "k": 12,
+      "x": [
+        0.041015625,
+        0.025390625,
+        0.015625
+      ],
+      "direcao": [
+        -0.03125,
+        -0.01953125,
+        -0.09375
+      ],
+      "gTd": -0.0101470947265625,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.0007648468017578125,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.018360137939453125,
+            "cota_inferior": -0.007511138916015625,
+            "cota_superior": 0.000606536865234375
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.003269195556640625,
+            "cota_inferior": -0.0029449462890625,
+            "cota_superior": 0.0011138916015625
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.0007648468017578125,
+            "cota_inferior": -0.0006618499755859375,
+            "cota_superior": 0.0013675689697265625
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.0006618499755859375,
+        "cota_superior": 0.0013675689697265625
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.001621246337890625
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.018360137939453125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.003269195556640625
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.0007648468017578125
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.0008563995361328125,
+      "avaliacoes_f": 37,
+      "avaliacoes_g": 14
+    },
+    {
+      "k": 13,
+      "x": [
+        0.033203125,
+        0.0205078125,
+        -0.0078125
+      ],
+      "direcao": [
+        -0.025390625,
+        -0.015625,
+        0.046875
+      ],
+      "gTd": -0.003086090087890625,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.0004265308380126953,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.0046100616455078125,
+            "cota_inferior": -0.00201263427734375,
+            "cota_superior": 0.00045623779296875
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.0009546279907226562,
+            "cota_inferior": -0.0006238937377929688,
+            "cota_superior": 0.0006105422973632813
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.0004265308380126953,
+            "cota_inferior": 7.047653198242185e-05,
+            "cota_superior": 0.0006876945495605469
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 7.047653198242185e-05,
+        "cota_superior": 0.0006876945495605469
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.0007648468017578125
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.0046100616455078125
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.0009546279907226562
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.0004265308380126953
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.0003383159637451172,
+      "avaliacoes_f": 40,
+      "avaliacoes_g": 15
+    },
+    {
+      "k": 14,
+      "x": [
+        0.02685546875,
+        0.0166015625,
+        0.00390625
+      ],
+      "direcao": [
+        -0.0205078125,
+        -0.0126953125,
+        -0.0234375
+      ],
+      "gTd": -0.0011310577392578125,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 0.0003285408020019531,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.001165628433227539,
+            "cota_inferior": -0.000591421127319336,
+            "cota_superior": 0.00031342506408691404
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.0003285408020019531,
+            "cota_inferior": -8.244514465332036e-05,
+            "cota_superior": 0.0003699779510498047
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -8.244514465332036e-05,
+        "cota_superior": 0.0003699779510498047
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.0004265308380126953
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.001165628433227539
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.0003285408020019531
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 9.799003601074219e-05,
+      "avaliacoes_f": 42,
+      "avaliacoes_g": 16
+    },
+    {
+      "k": 15,
+      "x": [
+        0.0166015625,
+        0.01025390625,
+        -0.0078125
+      ],
+      "direcao": [
+        -0.0126953125,
+        -0.0078125,
+        0.046875
+      ],
+      "gTd": -0.0024194717407226562,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 0.00014096498489379883,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.004585742950439453,
+            "cota_inferior": -0.0018489837646484377,
+            "cota_superior": 8.659362792968748e-05
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.0007879734039306641,
+            "cota_inferior": -0.0007602214813232423,
+            "cota_superior": 0.0002075672149658203
+          },
+          {
+            "alfa": 0.25,
+            "custo": 0.00014096498489379883,
+            "cota_inferior": -0.00021584033966064457,
+            "cota_superior": 0.0002680540084838867
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -0.00021584033966064457,
+        "cota_superior": 0.0002680540084838867
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.0003285408020019531
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.004585742950439453
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.0007879734039306641
+        },
+        {
+          "alfa": 0.25,
+          "f": 0.00014096498489379883
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 0.0001875758171081543,
+      "avaliacoes_f": 45,
+      "avaliacoes_g": 17
+    },
+    {
+      "k": 16,
+      "x": [
+        0.013427734375,
+        0.00830078125,
+        0.00390625
+      ],
+      "direcao": [
+        -0.01025390625,
+        -0.00634765625,
+        -0.0234375
+      ],
+      "gTd": -0.0006947517395019531,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 7.374584674835205e-05,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.0011497139930725098,
+            "cota_inferior": -0.00048431158065795896,
+            "cota_superior": 7.148981094360351e-05
+          },
+          {
+            "alfa": 0.5,
+            "custo": 0.00021946430206298828,
+            "cota_inferior": -0.00017167329788208007,
+            "cota_superior": 0.00010622739791870116
+          },
+          {
+            "alfa": 0.25,
+            "custo": 7.374584674835205e-05,
+            "cota_inferior": -1.535415649414062e-05,
+            "cota_superior": 0.00012359619140625
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -1.535415649414062e-05,
+        "cota_superior": 0.00012359619140625
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 0.00014096498489379883
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.0011497139930725098
+        },
+        {
+          "alfa": 0.5,
+          "f": 0.00021946430206298828
+        },
+        {
+          "alfa": 0.25,
+          "f": 7.374584674835205e-05
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 6.721913814544678e-05,
+      "avaliacoes_f": 48,
+      "avaliacoes_g": 18
+    },
+    {
+      "k": 17,
+      "x": [
+        0.0108642578125,
+        0.0067138671875,
+        -0.001953125
+      ],
+      "direcao": [
+        -0.00830078125,
+        -0.005126953125,
+        0.01171875
+      ],
+      "gTd": -0.00023251771926879883,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 4.363805055618286e-05,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.0002895742654800415,
+            "cota_inferior": -0.0001355201005935669,
+            "cota_superior": 5.049407482147217e-05
+          },
+          {
+            "alfa": 0.5,
+            "custo": 6.957352161407471e-05,
+            "cota_inferior": -3.0887126922607425e-05,
+            "cota_superior": 6.211996078491211e-05
+          },
+          {
+            "alfa": 0.25,
+            "custo": 4.363805055618286e-05,
+            "cota_inferior": 2.1429359912872313e-05,
+            "cota_superior": 6.793290376663207e-05
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 2.1429359912872313e-05,
+        "cota_superior": 6.793290376663207e-05
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 7.374584674835205e-05
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.0002895742654800415
+        },
+        {
+          "alfa": 0.5,
+          "f": 6.957352161407471e-05
+        },
+        {
+          "alfa": 0.25,
+          "f": 4.363805055618286e-05
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 3.010779619216919e-05,
+      "avaliacoes_f": 51,
+      "avaliacoes_g": 19
+    },
+    {
+      "k": 18,
+      "x": [
+        0.0087890625,
+        0.00543212890625,
+        0.0009765625
+      ],
+      "direcao": [
+        -0.0067138671875,
+        -0.004150390625,
+        -0.005859375
+      ],
+      "gTd": -9.663403034210205e-05,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 2.7019530534744263e-05,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 7.379800081253052e-05,
+            "cota_inferior": -4.3332576751708984e-05,
+            "cota_superior": 3.3974647521972656e-05
+          },
+          {
+            "alfa": 0.5,
+            "custo": 2.7019530534744263e-05,
+            "cota_inferior": 1.5273690223693848e-07,
+            "cota_superior": 3.880634903907776e-05
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 1.5273690223693848e-07,
+        "cota_superior": 3.880634903907776e-05
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 4.363805055618286e-05
+        },
+        {
+          "alfa": 1.0,
+          "f": 7.379800081253052e-05
+        },
+        {
+          "alfa": 0.5,
+          "f": 2.7019530534744263e-05
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 1.66185200214386e-05,
+      "avaliacoes_f": 53,
+      "avaliacoes_g": 20
+    },
+    {
+      "k": 19,
+      "x": [
+        0.00543212890625,
+        0.00335693359375,
+        -0.001953125
+      ],
+      "direcao": [
+        -0.004150390625,
+        -0.0025634765625,
+        0.01171875
+      ],
+      "gTd": -0.0001611262559890747,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 1.3055279850959778e-05,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 0.0002869702875614166,
+            "cota_inferior": -0.00011799409985542298,
+            "cota_superior": 1.0906904935836793e-05
+          },
+          {
+            "alfa": 0.5,
+            "custo": 5.172565579414368e-05,
+            "cota_inferior": -4.548728466033936e-05,
+            "cota_superior": 1.8963217735290526e-05
+          },
+          {
+            "alfa": 0.25,
+            "custo": 1.3055279850959778e-05,
+            "cota_inferior": -9.233877062797549e-06,
+            "cota_superior": 2.2991374135017394e-05
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -9.233877062797549e-06,
+        "cota_superior": 2.2991374135017394e-05
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 2.7019530534744263e-05
+        },
+        {
+          "alfa": 1.0,
+          "f": 0.0002869702875614166
+        },
+        {
+          "alfa": 0.5,
+          "f": 5.172565579414368e-05
+        },
+        {
+          "alfa": 0.25,
+          "f": 1.3055279850959778e-05
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 1.3964250683784485e-05,
+      "avaliacoes_f": 56,
+      "avaliacoes_g": 21
+    },
+    {
+      "k": 20,
+      "x": [
+        0.00439453125,
+        0.002716064453125,
+        0.0009765625
+      ],
+      "direcao": [
+        -0.00335693359375,
+        -0.0020751953125,
+        -0.005859375
+      ],
+      "gTd": -4.990771412849426e-05,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 7.3874834924936295e-06,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 7.209368050098419e-05,
+            "cota_inferior": -3.186166286468506e-05,
+            "cota_superior": 8.064508438110352e-06
+          },
+          {
+            "alfa": 0.5,
+            "custo": 1.5337951481342316e-05,
+            "cota_inferior": -9.403191506862642e-06,
+            "cota_superior": 1.0559894144535065e-05
+          },
+          {
+            "alfa": 0.25,
+            "custo": 7.3874834924936295e-06,
+            "cota_inferior": 1.8260441720485677e-06,
+            "cota_superior": 1.180758699774742e-05
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 1.8260441720485677e-06,
+        "cota_superior": 1.180758699774742e-05
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 1.3055279850959778e-05
+        },
+        {
+          "alfa": 1.0,
+          "f": 7.209368050098419e-05
+        },
+        {
+          "alfa": 0.5,
+          "f": 1.5337951481342316e-05
+        },
+        {
+          "alfa": 0.25,
+          "f": 7.3874834924936295e-06
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 5.667796358466148e-06,
+      "avaliacoes_f": 59,
+      "avaliacoes_g": 22
+    },
+    {
+      "k": 21,
+      "x": [
+        0.0035552978515625,
+        0.002197265625,
+        -0.00048828125
+      ],
+      "direcao": [
+        -0.002716064453125,
+        -0.001678466796875,
+        0.0029296875
+      ],
+      "gTd": -1.8777325749397278e-05,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 5.409587174654007e-06,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 1.8253223970532417e-05,
+            "cota_inferior": -9.51210968196392e-06,
+            "cota_superior": 5.509750917553902e-06
+          },
+          {
+            "alfa": 0.5,
+            "custo": 5.409587174654007e-06,
+            "cota_inferior": -1.0623130947351452e-06,
+            "cota_superior": 6.448617205023765e-06
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -1.0623130947351452e-06,
+        "cota_superior": 6.448617205023765e-06
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 7.3874834924936295e-06
+        },
+        {
+          "alfa": 1.0,
+          "f": 1.8253223970532417e-05
+        },
+        {
+          "alfa": 0.5,
+          "f": 5.409587174654007e-06
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 1.9778963178396225e-06,
+      "avaliacoes_f": 61,
+      "avaliacoes_g": 23
+    },
+    {
+      "k": 22,
+      "x": [
+        0.002197265625,
+        0.0013580322265625,
+        0.0009765625
+      ],
+      "direcao": [
+        -0.001678466796875,
+        -0.00103759765625,
+        -0.005859375
+      ],
+      "gTd": -3.8226135075092316e-05,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 2.383312676101923e-06,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 7.166760042309761e-05,
+            "cota_inferior": -2.8993934392929077e-05,
+            "cota_superior": 1.5869736671447754e-06
+          },
+          {
+            "alfa": 0.5,
+            "custo": 1.2417556717991829e-05,
+            "cota_inferior": -1.1792173609137535e-05,
+            "cota_superior": 3.498280420899391e-06
+          },
+          {
+            "alfa": 0.25,
+            "custo": 2.383312676101923e-06,
+            "cota_inferior": -3.191293217241764e-06,
+            "cota_superior": 4.453933797776699e-06
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -3.191293217241764e-06,
+        "cota_superior": 4.453933797776699e-06
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 5.409587174654007e-06
+        },
+        {
+          "alfa": 1.0,
+          "f": 7.166760042309761e-05
+        },
+        {
+          "alfa": 0.5,
+          "f": 1.2417556717991829e-05
+        },
+        {
+          "alfa": 0.25,
+          "f": 2.383312676101923e-06
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 3.026274498552084e-06,
+      "avaliacoes_f": 64,
+      "avaliacoes_g": 24
+    },
+    {
+      "k": 23,
+      "x": [
+        0.00177764892578125,
+        0.0010986328125,
+        -0.00048828125
+      ],
+      "direcao": [
+        -0.0013580322265625,
+        -0.0008392333984375,
+        0.0029296875
+      ],
+      "gTd": -1.1131633073091507e-05,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 1.270571374334395e-06,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 1.7974351067095995e-05,
+            "cota_inferior": -7.635157089680433e-06,
+            "cota_superior": 1.2701493687927723e-06
+          },
+          {
+            "alfa": 0.5,
+            "custo": 3.4981640055775642e-06,
+            "cota_inferior": -2.625922206789255e-06,
+            "cota_superior": 1.8267310224473476e-06
+          },
+          {
+            "alfa": 0.25,
+            "custo": 1.270571374334395e-06,
+            "cota_inferior": -1.2130476534366608e-07,
+            "cota_superior": 2.1050218492746353e-06
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -1.2130476534366608e-07,
+        "cota_superior": 2.1050218492746353e-06
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 2.383312676101923e-06
+        },
+        {
+          "alfa": 1.0,
+          "f": 1.7974351067095995e-05
+        },
+        {
+          "alfa": 0.5,
+          "f": 3.4981640055775642e-06
+        },
+        {
+          "alfa": 0.25,
+          "f": 1.270571374334395e-06
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 1.112741301767528e-06,
+      "avaliacoes_f": 67,
+      "avaliacoes_g": 25
+    },
+    {
+      "k": 24,
+      "x": [
+        0.001438140869140625,
+        0.000888824462890625,
+        0.000244140625
+      ],
+      "direcao": [
+        -0.0010986328125,
+        -0.00067901611328125,
+        -0.00146484375
+      ],
+      "gTd": -3.813824150711298e-06,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 7.59268004912883e-07,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 4.531189915724099e-06,
+            "cota_inferior": -2.1618703613057733e-06,
+            "cota_superior": 8.891889592632651e-07
+          },
+          {
+            "alfa": 0.5,
+            "custo": 1.1322699720039964e-06,
+            "cota_inferior": -4.456494934856892e-07,
+            "cota_superior": 1.07988016679883e-06
+          },
+          {
+            "alfa": 0.25,
+            "custo": 7.59268004912883e-07,
+            "cota_inferior": 4.1246094042435286e-07,
+            "cota_superior": 1.1752257705666124e-06
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 4.1246094042435286e-07,
+        "cota_superior": 1.1752257705666124e-06
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 1.270571374334395e-06
+        },
+        {
+          "alfa": 1.0,
+          "f": 4.531189915724099e-06
+        },
+        {
+          "alfa": 0.5,
+          "f": 1.1322699720039964e-06
+        },
+        {
+          "alfa": 0.25,
+          "f": 7.59268004912883e-07
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 5.113033694215119e-07,
+      "avaliacoes_f": 70,
+      "avaliacoes_g": 26
+    },
+    {
+      "k": 25,
+      "x": [
+        0.001163482666015625,
+        0.0007190704345703125,
+        -0.0001220703125
+      ],
+      "direcao": [
+        -0.000888824462890625,
+        -0.00054931640625,
+        0.000732421875
+      ],
+      "gTd": -1.6281992429867387e-06,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.5,
+      "goldstein": {
+        "alfa": 0.5,
+        "valor": 4.5175329432822764e-07,
+        "intervalo_final": [
+          0.0,
+          1.0
+        ],
+        "iteracoes": 2,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 1.1574084055610001e-06,
+            "cota_inferior": -7.061113137751819e-07,
+            "cota_superior": 5.964480806142092e-07
+          },
+          {
+            "alfa": 0.5,
+            "custo": 4.5175329432822764e-07,
+            "cota_inferior": 2.6578345568850594e-08,
+            "cota_superior": 6.778580427635462e-07
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 2.6578345568850594e-08,
+        "cota_superior": 6.778580427635462e-07
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 7.59268004912883e-07
+        },
+        {
+          "alfa": 1.0,
+          "f": 1.1574084055610001e-06
+        },
+        {
+          "alfa": 0.5,
+          "f": 4.5175329432822764e-07
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 3.075147105846554e-07,
+      "avaliacoes_f": 72,
+      "avaliacoes_g": 27
+    },
+    {
+      "k": 26,
+      "x": [
+        0.0007190704345703125,
+        0.0004444122314453125,
+        0.000244140625
+      ],
+      "direcao": [
+        -0.00054931640625,
+        -0.000339508056640625,
+        -0.00146484375
+      ],
+      "gTd": -2.5627814466133714e-06,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 2.23344613914378e-07,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 4.485558747546747e-06,
+            "cota_inferior": -1.8547500076238068e-06,
+            "cota_superior": 1.954751496668905e-07
+          },
+          {
+            "alfa": 0.5,
+            "custo": 8.195092959795147e-07,
+            "cota_inferior": -7.014983566477896e-07,
+            "cota_superior": 3.2361422199755905e-07
+          },
+          {
+            "alfa": 0.25,
+            "custo": 2.23344613914378e-07,
+            "cota_inferior": -1.2487253115978096e-07,
+            "cota_superior": 3.8768375816289334e-07
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": -1.2487253115978096e-07,
+        "cota_superior": 3.8768375816289334e-07
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 4.5175329432822764e-07
+        },
+        {
+          "alfa": 1.0,
+          "f": 4.485558747546747e-06
+        },
+        {
+          "alfa": 0.5,
+          "f": 8.195092959795147e-07
+        },
+        {
+          "alfa": 0.25,
+          "f": 2.23344613914378e-07
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 2.2840868041384965e-07,
+      "avaliacoes_f": 75,
+      "avaliacoes_g": 28
+    },
+    {
+      "k": 27,
+      "x": [
+        0.0005817413330078125,
+        0.00035953521728515625,
+        -0.0001220703125
+      ],
+      "direcao": [
+        -0.0004444122314453125,
+        -0.000274658203125,
+        0.000732421875
+      ],
+      "gTd": -8.093811629805714e-07,
+      "beta_fr": null,
+      "eventos": [],
+      "alfa": 0.25,
+      "goldstein": {
+        "alfa": 0.25,
+        "valor": 1.2809800864488352e-07,
+        "intervalo_final": [
+          0.0,
+          0.5
+        ],
+        "iteracoes": 3,
+        "historico": [
+          {
+            "alfa": 1.0,
+            "custo": 1.1275424185441807e-06,
+            "cota_inferior": -5.050984327681362e-07,
+            "cota_superior": 1.4240649761632083e-07
+          },
+          {
+            "alfa": 0.5,
+            "custo": 2.470487743266858e-07,
+            "cota_inferior": -1.4087690942687913e-07,
+            "cota_superior": 1.828755557653494e-07
+          },
+          {
+            "alfa": 0.25,
+            "custo": 1.2809800864488352e-07,
+            "cota_inferior": 4.123385224374943e-08,
+            "cota_superior": 2.031100848398637e-07
+          }
+        ],
+        "motivo": "ambas as condições de Goldstein satisfeitas",
+        "cota_inferior": 4.123385224374943e-08,
+        "cota_superior": 2.031100848398637e-07
+      },
+      "tentativas": [
+        {
+          "alfa": 0.0,
+          "f": 2.23344613914378e-07
+        },
+        {
+          "alfa": 1.0,
+          "f": 1.1275424185441807e-06
+        },
+        {
+          "alfa": 0.5,
+          "f": 2.470487743266858e-07
+        },
+        {
+          "alfa": 0.25,
+          "f": 1.2809800864488352e-07
+        }
+      ],
+      "status": "aceito",
+      "variacao_relativa_f": 9.524660526949447e-08,
+      "avaliacoes_f": 78,
+      "avaliacoes_g": 29
+    }
+  ],
+  "ponto": "A",
+  "autovalores_hessiana_final": [
+    0.7639320225002103,
+    5.23606797749979,
+    6.0
+  ],
+  "condicao_hessiana_final": 7.854101966249685,
+  "eventos": {},
+  "cosseno_mediano_direcoes": -0.40556667537928254,
+  "fracao_direcoes_opostas": 0.8888888888888888
+}

@@ -1,0 +1,27 @@
+{
+  "incidente": "E001",
+  "depois": {
+    "rejeicoes_corretas": 18,
+    "casos": [
+      "tol_grad:nan",
+      "tol_grad:inf",
+      "tol_grad:-inf",
+      "tol_f:nan",
+      "tol_f:inf",
+      "tol_f:-inf",
+      "c_goldstein:nan",
+      "c_goldstein:inf",
+      "c_goldstein:-inf",
+      "passo_inicial:nan",
+      "passo_inicial:inf",
+      "passo_inicial:-inf",
+      "curvatura_relativa:nan",
+      "curvatura_relativa:inf",
+      "curvatura_relativa:-inf",
+      "descida_relativa:nan",
+      "descida_relativa:inf",
+      "descida_relativa:-inf"
+    ]
+  },
+  "resultado": "18 parâmetros NaN/inf rejeitados por ValueError; ponto estacionário válido preservado sem busca."
+}

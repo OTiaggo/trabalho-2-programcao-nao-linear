@@ -1,0 +1,16 @@
+{
+  "data": "2026-11-16",
+  "catalogo_origem": "C:\\Users\\DEV-ORBI\\git\\projetos-curso-ciencia-de-dados\\programacao nao linear\\trabalho 1\\PNL_projeto_primeiro_20262 (1).pdf",
+  "catalogo_sha256": "11f2323080f0ff4b4dafca83b828377aef4653aec0a808d1ff865783532a691e",
+  "paginas": {
+    "TP3": 4,
+    "TP9": 5,
+    "TP14": 6,
+    "TP16": 6
+  },
+  "notebook_origem": "C:\\Users\\DEV-ORBI\\git\\projetos-curso-ciencia-de-dados\\programacao nao linear\\trabalho 1\\parte 2.ipynb",
+  "notebook_sha256": "74700143533e3864216aae21a0edb5cd33b65bf47c8d474076bbdeb4bcee913a",
+  "funcao_reutilizada": "goldstein",
+  "AST_identica": true,
+  "evidencia": "fontes/goldstein_original.py.txt"
+}

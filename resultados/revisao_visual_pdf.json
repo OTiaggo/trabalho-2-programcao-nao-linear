@@ -1,0 +1,11 @@
+{
+  "data": "2026-11-17",
+  "arquivo": "output/pdf/relatorio_parte2.pdf",
+  "paginas": 12,
+  "renderizador": "pypdfium2 5.15.2",
+  "escala_renderizacao": 1.1,
+  "inspecao": "Revisão inicial de todas as páginas em 16/11; após organização em 17/11, nova renderização das 12 páginas, conferência da folha de contato e inspeção ampliada do manual com os caminhos atualizados.",
+  "resultado": "Tabelas, fórmulas, gráficos, texto e rodapés legíveis; sem sobreposição, corte ou página indevidamente vazia.",
+  "limites": "Matriz de responsabilidades pessoais ainda depende de declaração dos estudantes; essa pendência está explícita no PDF.",
+  "sha256": "5f2eb08a8c68fd3e819fa2a6b1102984ad99b2875abb2c012dd0ff77a81757ba"
+}

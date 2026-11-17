@@ -1,0 +1,26 @@
+{
+  "python": "3.13.18",
+  "numpy": "2.5.5",
+  "matplotlib": "3.11.2",
+  "parametros": {
+    "tol_grad": 1e-05,
+    "tol_f": 0.0,
+    "max_iter": 20000,
+    "c_goldstein": 0.1,
+    "passo_inicial": 1.0,
+    "max_busca": 100,
+    "curvatura_relativa": 1e-10,
+    "descida_relativa": 1e-12
+  },
+  "hashes_codigo": {
+    "otimizacao.py": "7e0a198263d97cdf4f14b1036b739225b332d3cc675887f95fc45dfa3f4e6289",
+    "busca_linear.py": "fae0588b674a234a5ae5783755cbbecf2a232c09787bf2ab77a1c6f8436e0259",
+    "executar.py": "2890ad8df9879254e8dd4873480fe1783f8682818b4accd6c30a1335265c14da",
+    "testar.py": "2ad698010e2e92c801d13bbd67a051ff9bbaa27974f0991587dbb21f335cf915"
+  },
+  "numero_execucoes": 24,
+  "status": {
+    "gradiente": 20,
+    "limite_iteracoes": 4
+  }
+}

@@ -1,0 +1,126 @@
+#@title <b>Sorteio Oficial - Segunda Atividade Computacional (PNL / UFC)</b>
+#@markdown Preencha com a matrícula de **1 estudante** (individual) ou **2 estudantes** (dupla) e execute a célula.
+#@markdown <br /><i>Os problemas resolvidos são os mesmos da Atividade 1. Este script sorteia exclusivamente as variantes de Quase-Newton e Gradiente Conjugado.</i>
+
+MATRICULA_ALUNO_1 = "568044" #@param {type:"string"}
+MATRICULA_ALUNO_2 = "564988" #@param {type:"string"}
+
+import random
+import re
+
+# 1\. Catálogo das Variantes Metodológicas (1 de cada família será sorteada)
+VARIANTES_QUASE_NEWTON = [
+    {
+        "nome": "DFP (Davidon-Fletcher-Powell)",
+        "tipo": "Fórmula Direta de Posto 2 (Primal)",
+        "descricao": "Fórmula clássica secante de posto 2 precursora dos métodos Quase-Newton."
+    },
+    {
+        "nome": "BFGS (Broyden-Fletcher-Goldfarb-Shanno)",
+        "tipo": "Fórmula Inversa de Posto 2 (Dual)",
+        "descricao": "Atualização direta de H_{k+1} preservando simetria e definição positiva via busca de Wolfe/Armijo."
+    },
+    {
+        "nome": "SR1 (Symmetric Rank-1) com Salvaguarda",
+        "tipo": "Fórmula Simétrica de Posto 1",
+        "descricao": "Atualização de posto 1 com condição de salvaguarda |s_k^T (y_k - B_k s_k)| >= r ||s_k|| ||y_k - B_k s_k||."
+    }
+]
+
+VARIANTES_GRADIENTE_CONJUGADO = [
+    {
+        "nome": "Hestenes-Stiefel (HS)",
+        "formula": "beta_k^{HS} = g_{k+1}^T (g_{k+1} - g_k) / (d_k^T (g_{k+1} - g_k))",
+        "descricao": "Satisfaz a condição de conjugação residual pura d_{k+1}^T y_k = 0 mesmo em buscas inexatas."
+    },
+    {
+        "nome": "Polak-Ribière (PR)",
+        "formula": "beta_k^{PR+} = g_{k+1}^T (g_{k+1} - g_k) / ||g_k||^2",
+        "descricao": "Projeção ortogonal da variação do gradiente com reinício automático se beta &lt; 0."
+    },
+    {
+        "nome": "Fletcher-Reeves (FR)",
+        "formula": "beta_k^{FR} = ||g_{k+1}||^2 / ||g_k||^2",
+        "descricao": "Razão direta das normas euclidianas dos gradientes sucessivos."
+    }
+]
+
+def extrair_semente(matricula: str) -> int:
+  """Extrai apenas dígitos numéricos de uma matrícula."""
+  if not matricula:
+    return 0
+  digitos = re.findall(r'\d+', str(matricula))
+  return int(''.join(digitos)) if digitos else 0
+
+def sortear_segunda_atividade(m1_str: str, m2_str: str = ""):
+  m1 = extrair_semente(m1_str)
+  m2 = extrair_semente(m2_str) if m2_str else 0
+
+  if m1 == 0:
+    print("❌ [ERRO] Digite uma matrícula válida para o Aluno 1.")
+    return
+
+  # Semente pseudoaleatória determinística baseada na soma das matrículas
+  semente = m1 + m2
+  random.seed(semente)
+
+  is_dupla = (m2 > 0)
+  num_resumos = 5 if is_dupla else 3
+
+  # Sorteio determinístico de 1 variante Quase-Newton e 1 variante Gradiente Conjugado
+  qn_sorteado = random.choice(VARIANTES_QUASE_NEWTON)
+  gc_sorteado = random.choice(VARIANTES_GRADIENTE_CONJUGADO)
+
+  div_dupla = "=" * 85
+  div_simples = "-" * 85
+
+  print(div_dupla)
+  print(" UNIVERSIDADE FEDERAL DO CEARÁ - DEPARTAMENTO DE ESTATÍSTICA E MATEMÁTICA APLICADA")
+  print(" PROGRAMAÇÃO NÃO-LINEAR - SEGUNDA ATIVIDADE COMPUTACIONAL (OTIMIZAÇÃO IRRESTRITA)")
+  print(div_dupla)
+
+  if is_dupla:
+    print(f" COMPOSIÇÃO: Dupla de Alunos")
+    print(f" Matrícula Aluno 1: {m1_str.strip()}")
+    print(f" Matrícula Aluno 2: {m2_str.strip()}")
+  else:
+    print(f" COMPOSIÇÃO: Aluno Individual")
+    print(f" Matrícula Aluno 1: {m1_str.strip()}")
+
+  print(f" Semente Geradora Determinística (Seed = M1 + M2): {semente}")
+  print(div_simples)
+  print(f" PARTE 1: PESQUISA APLICADA NOS ENCONTROS UNIVERSITÁRIOS (EU-UFC)")
+  print(f" -> Quantidade obrigatória: {num_resumos} TRABALHOS CIENTÍFICOS ({'Dupla' if is_dupla else 'Individual'})")
+  print(f" -> Fichamento crítico de resumos/artigos dos Anais dos Encontros Universitários da UFC")
+  print(f" que apliquem otimização, modelagem matemática/estatística ou aprendizado de máquina.")
+  print(div_simples)
+  print(f" PARTE 2: SUÍTE DE MÉTODOS MULTIDIMENSIONAIS (BENCHMARK)")
+  print(f" [1] Linha de Base (Baseline - Obrigatório para Todos):")
+  print(f" * Método do Gradiente Clássico (Descida Mais Íngreme com Busca Linear)")
+  print()
+  print(f" [2] Variante Quase-Newton Sorteada (1 de 3):")
+  print(f" * {qn_sorteado['nome']}")
+  print(f" Classificação: {qn_sorteado['tipo']}")
+  print(f" Propriedade: {qn_sorteado['descricao']}")
+  print()
+  print(f" [3] Variante Gradiente Conjugado Sorteada (1 de 3):")
+  print(f" * {gc_sorteado['nome']}")
+  print(f" Fórmula: {gc_sorteado['formula']}")
+  print(f" Propriedade: {gc_sorteado['descricao']}")
+  print(div_simples)
+  print(f" PARTE 3: PROBLEMAS-TESTE E EXPERIMENTO DE BACIAS DE ATRAÇÃO")
+  print(f" -> OS PROBLEMAS SÃO OS MESMOS ATRIBUÍDOS NA PRIMEIRA ATIVIDADE!")
+  print(f" (Reaproveite as funções de teste já modeladas e implementadas anteriormente).")
+  print()
+  print(f" -> EXPERIMENTO DE SIMETRIA REFLETIDA:")
+  print(f" Para cada problema, execute os 3 métodos a partir de DOIS pontos iniciais:")
+  print(f" (a) Ponto Padrão (x0_A): O ponto inicial clássico da literatura de Schittkowski.")
+  print(f" (b) Ponto Refletido (x0_B = -x0_A): Inversão simétrica de coordenadas.")
+  print(f" * Caso x0_A seja a origem nula (0, ..., 0), adote x0_B = (-1, ..., -1).")
+  print()
+  print(f" -> CRITÉRIO DE PARADA: ||grad f(x_k)|| <= 1e-5 ou k >= 1000 iterações.")
+  print(div_dupla)
+
+# Executa o sorteio
+if __name__ == "__main__":
+  sortear_segunda_atividade(MATRICULA_ALUNO_1, MATRICULA_ALUNO_2)

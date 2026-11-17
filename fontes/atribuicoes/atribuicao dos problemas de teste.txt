@@ -1,0 +1,15 @@
+=================================================================
+ ATRIBUICAO DO PROJETO | NIVEL: GRADUACAO | DUPLA: True
+ Matricula(s): 564988 e 568044
+=================================================================
+ --> Modelagens Praticas Exigidas: 2
+ --> Problemas de Teste Sorteados:
+ * Grupo1TP: TP_3
+ * Grupo2TP: TP_14
+ * Grupo2TP: TP_9
+ * Grupo3TP: TP_16
+ --> Metodos de Busca Linear Atribuidos:
+ * GrupoAM: Secao Aurea
+ * GrupoBM: Falsa Posicao
+ * GrupoCM: Condicoes de Goldstein
+=================================================================
