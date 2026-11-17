@@ -59,3 +59,18 @@ Nos próximos registros, incluir identificador, data, pedido literal ou resumo i
 - **Finalidade:** usar o nome completo confirmado pelo usuário, mantendo a matrícula 568044.
 - **Saída:** README, AGENTS, notebook, gerador, verificador e relatório atualizados. A identificação anterior em P003 foi convertida em resumo com referência a esta correção, sem apresentá-la como citação literal.
 - **Validação:** conferência das ocorrências, do PDF regenerado e da preservação das células de código e saídas executadas do notebook; resultados numéricos preservados.
+
+## P008 — 17/11/2026 — Distribuição de trabalhos declarada pelo usuário
+
+- **Solicitação (resumo fiel):** incorporar a distribuição enviada pelo usuário, com a conclusão “essa foi a distribuição dos trabalhos”.
+- **Tiago Oliveira Lima (564988):** Parte 1: seleção dos trabalhos nos Encontros Universitários e elaboração dos resumos 1, 3 e 5. Parte 2: definição do escopo junto ao assistente (P001–P003); conferência das derivadas analíticas do TP3 e do TP9 contra o catálogo da primeira atividade; conferência da busca de Goldstein recuperada da Atividade 1 e de seus parâmetros (c = 0,1, α inicial = 1); análise dos resultados do TP3 e do TP9 (simetria das trajetórias, ziguezague do gradiente, vale estreito); execução dos comandos do Manual de Uso para checar a reprodutibilidade.
+- **Noberto Frota Oliveira Nogueira (568044):** Parte 1: seleção dos trabalhos nos Encontros Universitários e elaboração dos resumos 2 e 4. Parte 2: conferência da atribuição de problemas e métodos (script de sorteio, semente 1133032) e dos pontos A/B; conferência das derivadas do TP14 e do TP16 e das referências analíticas (quatro mínimos do TP14, convexidade e Hessiana singular do TP16); revisão das salvaguardas do BFGS (condição de curvatura) e dos reinícios de Fletcher–Reeves; análise dos resultados do TP14 e do TP16 e redação da resposta à questão investigativa sobre bacias de atração; revisão do erro E001 e leitura final do relatório.
+- **Finalidade e saída:** completar a matriz de responsabilidades do notebook e do relatório, atualizar README e AGENTS e manter o apoio da IA identificado separadamente. O nome completo confirmado em P007 foi mantido.
+- **Validação:** conferência da correspondência com a declaração, preservação das células de código e saídas executadas do notebook, verificação integrada e revisão do PDF regenerado.
+- **Limite:** as atividades humanas são registradas conforme declaração do usuário. A declaração não acrescenta as fichas da Parte 1 aos arquivos da entrega.
+
+## P009 — 17/11/2026 — Commit e push
+
+- **Solicitação literal:** “faça commit e push”.
+- **Finalidade:** versionar e enviar a atualização da matriz de responsabilidades e seus documentos derivados ao remoto configurado.
+- **Validação anterior ao envio:** verificação integrada aprovada em P008, células de código e saídas do notebook preservadas e PDF de 12 páginas conferido; revisão do diff e da situação do remoto antes da publicação.

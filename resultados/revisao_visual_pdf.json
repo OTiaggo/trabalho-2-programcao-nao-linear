@@ -4,8 +4,8 @@
   "paginas": 12,
   "renderizador": "pypdfium2 5.15.2",
   "escala_renderizacao": 1.1,
-  "inspecao": "Após correção para Noberto Frota Oliveira Nogueira em 17/11 (P007), 12 páginas renderizadas; folha de contato e matriz ampliada conferidas visualmente, incluindo capa e rodapés.",
+  "inspecao": "Após incorporação da distribuição de tarefas declarada em 17/11 (P008), 12 páginas renderizadas; página 12 conferida visualmente em tamanho ampliado, incluindo matriz, auditoria, referências e rodapé.",
   "resultado": "Tabelas, fórmulas, gráficos, texto e rodapés legíveis; sem sobreposição, corte ou página indevidamente vazia.",
-  "limites": "Matriz de responsabilidades pessoais ainda depende de declaração dos estudantes; essa pendência está explícita no PDF.",
-  "sha256": "97c5f3bb363b2a9d87bac8276e3260e7f163000791b42c74f6a2496d4ec91a15"
+  "limites": "Contribuições humanas registradas conforme declaração do usuário; fichas da Parte 1 não integram este relatório.",
+  "sha256": "39bab89cc068e80908cd1cfc1ab5ed82b395c49c1aaf5be4a6ea1050775734e1"
 }

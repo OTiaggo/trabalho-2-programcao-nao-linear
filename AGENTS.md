@@ -6,6 +6,12 @@ Este arquivo orienta a continuidade do **segundo trabalho** de Programação Nã
 
 **Organização atual (17/11/2026):** scripts em `codigo/`; enunciado em `fontes/PNL_projeto_segundo_20262.pdf`; atribuições em `fontes/atribuicoes/`; registros de prompts, erros e contribuições em `documentacao/auditoria/`. Notebook na raiz, resultados em `resultados/` e relatório em `output/pdf/`. Executar comandos pela raiz: `.venv/Scripts/python codigo/executar.py`, `.venv/Scripts/python codigo/testar.py`, `.venv/Scripts/python codigo/preparar_entrega.py` e `.venv/Scripts/python codigo/verificar_entrega.py`. Referências sem esses prefixos nas seções históricas indicam as localizações anteriores; usar este mapa e o README para os caminhos atuais.
 
+**Atualização P008 — 17/11/2026:** o usuário declarou a distribuição das tarefas das Partes 1 e 2, registrada abaixo e incorporada à matriz do notebook e do relatório. Isso resolve a pendência de declaração humana citada nos estados históricos; não comprova a presença das cinco fichas da Parte 1 no repositório.
+
+- **Tiago Oliveira Lima (564988):** Parte 1: seleção dos trabalhos nos Encontros Universitários e elaboração dos resumos 1, 3 e 5. Parte 2: definição do escopo junto ao assistente (P001–P003); conferência das derivadas analíticas do TP3 e do TP9 contra o catálogo da primeira atividade; conferência da busca de Goldstein recuperada da Atividade 1 e de seus parâmetros (c = 0,1, α inicial = 1); análise dos resultados do TP3 e do TP9 (simetria das trajetórias, ziguezague do gradiente, vale estreito); execução dos comandos do Manual de Uso para checar a reprodutibilidade.
+- **Noberto Frota Oliveira Nogueira (568044):** Parte 1: seleção dos trabalhos nos Encontros Universitários e elaboração dos resumos 2 e 4. Parte 2: conferência da atribuição de problemas e métodos (script de sorteio, semente 1133032) e dos pontos A/B; conferência das derivadas do TP14 e do TP16 e das referências analíticas (quatro mínimos do TP14, convexidade e Hessiana singular do TP16); revisão das salvaguardas do BFGS (condição de curvatura) e dos reinícios de Fletcher–Reeves; análise dos resultados do TP14 e do TP16 e redação da resposta à questão investigativa sobre bacias de atração; revisão do erro E001 e leitura final do relatório.
+- **IA:** apoio técnico registrado separadamente na matriz e em `documentacao/auditoria/no que a IA ajudou.md`.
+
 **Estado comprovado em 16/11/2026, após retomada:** Parte 2 implementada e verificada; 24 ensaios principais e 24 de refinamento reexecutados com a correção final; notebook executado integralmente; relatório PDF de 12 páginas gerado e todas as páginas conferidas visualmente. Resultados e auditoria preservados. A matriz distingue o apoio da IA, mas a divisão de tarefas humanas depende de declaração dos integrantes. A Parte 1 não foi iniciada.
 
 O estudante solicitou manter a estratégia de registrar prompts, contribuições da IA e erros reais com suas correções. Atualizar esses registros durante o desenvolvimento e incorporá-los ao apêndice de auditoria do relatório.
@@ -23,7 +29,7 @@ O estudante solicitou manter a estratégia de registrar prompts, contribuições
 - Estudante: Tiago Oliveira Lima, Bacharelado em Ciência de Dados, Universidade Federal do Ceará. Nome completo confirmado pelo usuário em 17/11/2026.
 - Disciplina: Programação Não Linear. Professor: Ricardo Coelho.
 - Atividade: **Segunda Atividade Computacional — Resumos e resolução de problemas irrestritos com métodos de otimização multidimensionais**.
-- Modalidade confirmada: **graduação em dupla**, Tiago Oliveira Lima (**564988**) e Noberto Frota Oliveira Nogueira (**568044**). Nome completo corrigido pelo usuário em 17/11/2026 para Noberto Frota Oliveira Nogueira; matrícula 568044 mantida; a outra matrícula corresponde a Tiago pelo contexto da dupla. Divisão de tarefas humanas ainda não informada.
+- Modalidade confirmada: **graduação em dupla**, Tiago Oliveira Lima (**564988**) e Noberto Frota Oliveira Nogueira (**568044**). Nome completo corrigido pelo usuário em 17/11/2026 para Noberto Frota Oliveira Nogueira; matrícula 568044 mantida; a outra matrícula corresponde a Tiago pelo contexto da dupla. Distribuição de tarefas humanas declarada pelo usuário em P008 (17/11/2026).
 - Prazo no novo PDF: **17 de novembro de 2026 (terça-feira)**. Horário e canal de envio não informados.
 - Comunicação e documentação: português do Brasil.
 
@@ -205,7 +211,7 @@ Não tratar arquivos planejados como existentes. Atualizar caminhos, decisões e
 - [x] Executar as 24 combinações, preservando trajetórias completas, e 24 ensaios adicionais.
 - [x] Analisar reflexão, bacias, condicionamento, convergência e falhas da Parte 2.
 - [x] Redigir relatório e manual da Parte 2, matriz com contribuições comprovadas e apêndice de IA.
-- [ ] Obter declaração dos integrantes para completar a divisão de tarefas humanas na matriz.
+- [x] Obter declaração dos integrantes para completar a divisão de tarefas humanas na matriz (P008, 17/11/2026).
 - [x] Verificar resultados, notebook executado e todas as páginas do PDF da Parte 2.
 - [ ] Verificar diagramação das fichas da Parte 1, ainda não produzidas.
 - [ ] Conferir canal, horário e requisitos práticos de envio.

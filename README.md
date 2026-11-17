@@ -39,8 +39,9 @@ Execute os comandos pela raiz do repositório. `.venv/`, `tmp/` e caches
 são arquivos locais ignorados pelo Git.
 
 Os arquivos grandes de trajetória são compactados sem perda em `.json.gz`.
-A Parte 1 (pesquisa EU/UFC) não está incluída. A divisão real de tarefas dos
-estudantes deve ser declarada por eles na matriz de responsabilidades.
+A Parte 1 (pesquisa EU/UFC) não está incluída nos entregáveis desta pasta.
+A matriz no notebook e no relatório registra a distribuição de tarefas das
+Partes 1 e 2 declarada pelo usuário em 17/11/2026, distinguindo o apoio da IA.
 
 ## Executar em PowerShell
 

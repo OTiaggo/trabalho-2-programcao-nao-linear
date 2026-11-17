@@ -55,3 +55,9 @@
 
 - Correção para Noberto Frota Oliveira Nogueira em documentos, notebook, gerador, verificador e PDF, conforme informado pelo usuário; matrícula 568044 preservada.
 - Conferência da identificação e da diagramação do relatório, preservando as saídas executadas do notebook e os resultados numéricos.
+
+## 17/11/2026 — Matriz de responsabilidades (P008)
+
+- Incorporação da distribuição de tarefas das Partes 1 e 2 enviada pelo usuário, com o nome completo confirmado de Noberto.
+- Atualização da matriz no notebook e no relatório e das pendências atuais no README e AGENTS; apoio da IA mantido em linha própria.
+- As tarefas humanas são declarações do usuário, sem atribuir sua execução à IA. As pendências de declaração nos registros anteriores descrevem o estado de cada etapa e foram resolvidas por P008.
