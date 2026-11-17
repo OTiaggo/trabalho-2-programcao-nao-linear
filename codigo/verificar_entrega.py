@@ -48,7 +48,7 @@ def verificar():
         if c.cell_type=='markdown': assert '\r' not in c.source
     d=PdfReader('output/pdf/relatorio_parte2.pdf')
     texto='\n'.join(p.extract_text() for p in d.pages)
-    for termo in ('TP3','TP9','TP14','TP16','Manual','E001','Norberto','20000'):
+    for termo in ('TP3','TP9','TP14','TP16','Manual','E001','Noberto Frota Oliveira Nogueira','20000'):
         assert termo in texto, ('texto ausente no PDF',termo)
     assert len(d.pages)>=10
     resumo['notebook']={'celulas_codigo_executadas':len(codigos),'erros':0}

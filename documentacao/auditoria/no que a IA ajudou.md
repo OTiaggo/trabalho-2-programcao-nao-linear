@@ -50,3 +50,8 @@
 
 - Atualização do nome para Tiago Oliveira Lima nos documentos ativos, no notebook e no gerador.
 - Regeneração e conferência do relatório, preservando resultados numéricos e saídas executadas do notebook.
+
+## 17/11/2026 — Nome completo do colega (P007)
+
+- Correção para Noberto Frota Oliveira Nogueira em documentos, notebook, gerador, verificador e PDF, conforme informado pelo usuário; matrícula 568044 preservada.
+- Conferência da identificação e da diagramação do relatório, preservando as saídas executadas do notebook e os resultados numéricos.

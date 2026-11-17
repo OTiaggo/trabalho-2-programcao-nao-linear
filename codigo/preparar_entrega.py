@@ -64,7 +64,7 @@ def criar_notebook():
     n.metadata={'kernelspec':{'display_name':'Python 3 (PNL)','language':'python','name':'python3'}}
     cells=[nbf.v4.new_markdown_cell('''# Parte 2 - Métodos multidimensionais e reflexão
 
-**Tiago Oliveira Lima (564988) e Norberto Frota (568044)** · UFC · Ricardo Coelho · 16/11/2026.
+**Tiago Oliveira Lima (564988) e Noberto Frota Oliveira Nogueira (568044)** · UFC · Ricardo Coelho · 16/11/2026.
 
 Implementações em `codigo/otimizacao.py` e `codigo/busca_linear.py`. Não há otimizador pronto nem busca 1D de biblioteca. A busca Goldstein é reutilizada do código anterior e sua origem está em `fontes/manifesto.json`. As 24 execuções principais usam os critérios sugeridos; 24 execuções adicionais isolam a parada por gradiente. A Parte 1 não faz parte deste notebook.
 
@@ -126,7 +126,7 @@ Status: `gradiente` indica tolerância atingida; `variacao_objetivo` indica apen
 
 **Auditoria E001:** a primeira implementação permitia tol_grad=NaN: `NaN <= 0` é falso e `0 <= NaN` também. No mínimo do TP3 ela tentava busca com direção zero e retornava falha_busca. A correção valida finitude antes de avaliar a função. Os arquivos `resultados/auditoria/E001_antes.json` e `E001_depois.json` e 18 testes de regressão registram antes/depois. Não se trata de erro na derivada, nem afetou as execuções com tolerâncias finitas.
 
-**Responsabilidades:** o usuário forneceu as atribuições e o nome/matrícula de Norberto. A IA implementou, executou, auditou e redigiu esta solução. As tarefas efetivamente realizadas por Tiago e Norberto ainda devem ser declaradas por eles; não lhes são atribuídas validações que não informaram. Os registros completos de prompts, contribuições e E001 estão em `documentacao/auditoria/`.
+**Responsabilidades:** o usuário forneceu as atribuições e o nome/matrícula de Noberto Frota Oliveira Nogueira. A IA implementou, executou, auditou e redigiu esta solução. As tarefas efetivamente realizadas por Tiago e Noberto Frota Oliveira Nogueira ainda devem ser declaradas por eles; não lhes são atribuídas validações que não informaram. Os registros completos de prompts, contribuições e E001 estão em `documentacao/auditoria/`.
 
 Referência teórica: [Hager e Zhang, A Survey of Nonlinear Conjugate Gradient Methods, §§2 e 4](https://people.clas.ufl.edu/hager/files/cg_survey.pdf). As garantias de FR discutidas nessa fonte dependem de condições de busca que não são automaticamente impostas por Goldstein.''')]
     n.cells=cells
@@ -163,7 +163,7 @@ def criar_pdf():
     p('UFC · Bacharelado em Ciência de Dados','small')
     p('Programação Não Linear<br/>Segunda Atividade Computacional','Title')
     p('Parte 2 - Métodos multidimensionais<br/>e simetria refletida','Heading1')
-    p('Tiago Oliveira Lima - matrícula 564988<br/>Norberto Frota - matrícula 568044<br/>Professor: Ricardo Coelho<br/>16 de novembro de 2026')
+    p('Tiago Oliveira Lima - matrícula 564988<br/>Noberto Frota Oliveira Nogueira - matrícula 568044<br/>Professor: Ricardo Coelho<br/>16 de novembro de 2026')
     story.append(Spacer(1,12))
     h('Escopo e resultado principal')
     p('Comparam-se gradiente clássico, BFGS e Fletcher-Reeves (FR), todos com a busca Goldstein recuperada da primeira atividade. São 24 execuções principais independentes e 24 adicionais com critério de gradiente. Código, dados completos e gráficos acompanham este relatório. A pesquisa dos EU/UFC (Parte 1) não integra este documento.')
@@ -238,8 +238,8 @@ def criar_pdf():
     tabela([['Arquivo / status','Como ler'],['resumo.csv','Uma linha por execução: ponto final, objetivo, norma, iterações, avaliações e motivo.'],['TP*_Método_A/B.json[.gz]','Registro completo. Use json.load; para gzip, gzip.open(path,"rt",encoding="utf-8"). Arquivos grandes são compactados sem perda.'],['validacao.json / metadados.json','Testes, parâmetros, versões, contagem de casos e hashes do código.'],['gradiente','Norma dentro da tolerância; interpretar com as propriedades da função.'],['variacao_objetivo','Pequena mudança; não comprova mínimo nem tolerância de gradiente.'],['limite_iteracoes','Execução encerrada sem certificação de convergência.'],['falha_busca / valor_nao_finito / derivada_indefinida','Falha registrada com detalhe; tentativas disponíveis, sem fabricar passo.']],[190,301])
     br(); h('6. Responsabilidades e auditoria de IA')
     p('A distinção abaixo documenta o que foi comprovado nesta sessão. A matriz de tarefas humanas ainda depende de declaração dos integrantes e deve ser completada por eles antes do envio. Não se atribui à dupla a execução manual de verificações que foram feitas pela IA.')
-    tabela([['Responsável','Contribuição comprovada / pendência'],['Tiago Oliveira Lima (564988)','Interação com o assistente e solicitação de resolver a Parte 2; arquivos de atribuição fornecidos pelo usuário. Divisão de tarefas e revisão acadêmica final não informadas.'],['Norberto Frota (568044)','Nome e matrícula fornecidos pelo usuário. Tarefas acadêmicas efetivamente realizadas não informadas.'],['IA (Codex)','Localizou e conferiu fontes, recuperou Goldstein, implementou métodos e derivadas, executou testes/ensaios, gerou gráficos, notebook e relatório e corrigiu E001. Não substitui a apreciação e a revisão dos estudantes.']],[115,376])
-    p('<b>Prompts.</b> P001 (resumo fiel): ler o novo enunciado e adaptar as instruções, preservando registros de prompts e correções. P002 (resumo fiel): incorporar os arquivos de atribuição adicionados. P003 (literal): “resolva a parte 2 do trabalho [PNL_projeto_segundo_20262.pdf](PNL_projeto_segundo_20262.pdf)”. Complemento do usuário: “norberto frota - 568044”. Os registros detalhados estão nos Markdown do projeto.')
+    tabela([['Responsável','Contribuição comprovada / pendência'],['Tiago Oliveira Lima (564988)','Interação com o assistente e solicitação de resolver a Parte 2; arquivos de atribuição fornecidos pelo usuário. Divisão de tarefas e revisão acadêmica final não informadas.'],['Noberto Frota Oliveira Nogueira (568044)','Nome e matrícula fornecidos pelo usuário. Tarefas acadêmicas efetivamente realizadas não informadas.'],['IA (Codex)','Localizou e conferiu fontes, recuperou Goldstein, implementou métodos e derivadas, executou testes/ensaios, gerou gráficos, notebook e relatório e corrigiu E001. Não substitui a apreciação e a revisão dos estudantes.']],[115,376])
+    p('<b>Prompts.</b> P001 (resumo fiel): ler o novo enunciado e adaptar as instruções, preservando registros de prompts e correções. P002 (resumo fiel): incorporar os arquivos de atribuição adicionados. P003 (literal): “resolva a parte 2 do trabalho [PNL_projeto_segundo_20262.pdf](PNL_projeto_segundo_20262.pdf)”. Identificação do colega fornecida pelo usuário, atualizada em 17/11/2026: Noberto Frota Oliveira Nogueira (568044). Os registros detalhados estão nos Markdown do projeto.')
     p('<b>E001 - validação de tolerância não finita.</b> Na primeira versão de minimizar, a IA validou tol_grad somente com tol_grad≤0. O teste com TP3, x0=(0,0,0) e tol_grad=NaN foi aceito e retornou falha_busca, tentando direção nula. Isso era incorreto: a entrada deve ser rejeitada antes da avaliação da função. Em aritmética IEEE, tanto NaN≤0 quanto 0≤NaN são falsas, de modo que o erro atravessava a validação e desativava a parada por gradiente.')
     p('A correção verifica np.isfinite em todos os parâmetros reais antes de comparar tolerâncias; valida também limites inteiros e faixas das salvaguardas. A regressão rejeita NaN, +inf e −inf nos seis parâmetros reais (18 casos). O teste estacionário com tolerância válida continua parando sem busca nem passo. Evidências preservadas: resultados/auditoria/E001_antes.json e E001_depois.json. O incidente foi de validação de entrada; não alterou derivadas nem os resultados com parâmetros finitos. As 48 execuções foram verificadas novamente com o código corrigido.')
     p('<b>Limites.</b> Dois pontos por problema não caracterizam integralmente as bacias. Não se garante convergência de FR somente com Goldstein. As quatro execuções do gradiente limitadas a 20.000 passos permanecem inconclusivas. O código não usa um método diferente para ocultar essa dificuldade. A Parte 1 e a declaração pessoal de tarefas não são preenchidas pela IA.')
@@ -249,9 +249,9 @@ def criar_pdf():
     def rodape(canvas,doc):
         canvas.setFont('DejaVu',7)
         canvas.setFillColor(colors.HexColor('#526477'))
-        canvas.drawString(52,28,'PNL · Parte 2 · Tiago Oliveira Lima e Norberto Frota · 16/11/2026')
+        canvas.drawString(52,28,'PNL · Parte 2 · Tiago Oliveira Lima e Noberto Frota Oliveira Nogueira · 16/11/2026')
         canvas.drawRightString(A4[0]-52,28,str(doc.page))
-    doc=SimpleDocTemplate(str(output),pagesize=A4,rightMargin=52,leftMargin=52,topMargin=42,bottomMargin=44,title='PNL - Parte 2: Métodos multidimensionais e reflexão',author='Tiago Oliveira Lima e Norberto Frota; apoio de IA declarado')
+    doc=SimpleDocTemplate(str(output),pagesize=A4,rightMargin=52,leftMargin=52,topMargin=42,bottomMargin=44,title='PNL - Parte 2: Métodos multidimensionais e reflexão',author='Tiago Oliveira Lima e Noberto Frota Oliveira Nogueira; apoio de IA declarado')
     doc.build(story,onFirstPage=rodape,onLaterPages=rodape)
     print('PDF:',output)
 

@@ -22,7 +22,7 @@ Nos próximos registros, incluir identificador, data, pedido literal ou resumo i
 ## P003 — 16/11/2026 — Resolver a Parte 2; interrupção a pedido
 
 - **Solicitação literal:** “resolva a parte 2 do trabalho [PNL_projeto_segundo_20262.pdf](PNL_projeto_segundo_20262.pdf)”.
-- **Complemento literal:** “norberto frota - 568044”.
+- **Complemento (resumo com identificação corrigida em P007):** nome e matrícula do colega, Noberto Frota Oliveira Nogueira (568044).
 - **Finalidade:** implementar gradiente, BFGS e FR, executar pontos A/B, analisar resultados e preparar código, notebook e relatório com manual e auditoria.
 - **Realizado:** catálogo recuperado e conferido; Goldstein reutilizada com identidade sintática verificada; código e testes criados; 24 ensaios principais e 24 de refinamento executados com trajetórias preservadas; erro E001 reproduzido, corrigido e testado.
 - **Arquivos afetados:** scripts Python, requirements.txt, .gitignore, fontes/, resultados/, AGENTS.md e registros. `preparar_entrega.py` contém rascunho ainda não executado do notebook/relatório.
@@ -52,3 +52,10 @@ Nos próximos registros, incluir identificador, data, pedido literal ou resumo i
 - **Finalidade:** atualizar a identificação para Tiago Oliveira Lima.
 - **Saída:** nome completo no README, AGENTS, identificação do notebook e capa, matriz, rodapés e metadados do relatório; gerador atualizado para preservar a correção em futuras versões.
 - **Validação:** PDF regenerado e conferido; notebook manteve as células de código e suas saídas executadas. Nenhuma fórmula, parâmetro ou resultado numérico alterado.
+
+## P007 — 17/11/2026 — Correção do nome do colega
+
+- **Solicitação (resumo fiel):** corrigir em todo o projeto o nome do colega para Noberto Frota Oliveira Nogueira.
+- **Finalidade:** usar o nome completo confirmado pelo usuário, mantendo a matrícula 568044.
+- **Saída:** README, AGENTS, notebook, gerador, verificador e relatório atualizados. A identificação anterior em P003 foi convertida em resumo com referência a esta correção, sem apresentá-la como citação literal.
+- **Validação:** conferência das ocorrências, do PDF regenerado e da preservação das células de código e saídas executadas do notebook; resultados numéricos preservados.
