@@ -64,3 +64,8 @@ Nos próximos registros, incluir identificador, data, pedido literal ou resumo i
 - **Solicitação literal:** “faça commit e push”.
 - **Finalidade:** versionar e enviar a atualização da matriz de responsabilidades e seus documentos derivados ao remoto configurado.
 - **Validação anterior ao envio:** verificação integrada aprovada em P008, células de código e saídas do notebook preservadas e PDF de 12 páginas conferido; revisão do diff e da situação do remoto antes da publicação.
+
+## P010 — 17/11/2026 — Texto da contribuição da IA no PDF
+
+- **Solicitação (resumo fiel):** usar na contribuição da IA do PDF: “Apoio na localização e conferência de fontes, recuperação da Goldstein, implementação dos métodos e derivadas, execução de testes e ensaios, geração de gráficos, notebook e relatório.”
+- **Saída:** texto da linha da IA na matriz do relatório e no gerador atualizado; PDF regenerado e página alterada conferida. Notebook e resultados numéricos preservados.

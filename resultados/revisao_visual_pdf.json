@@ -4,8 +4,8 @@
   "paginas": 12,
   "renderizador": "pypdfium2 5.15.2",
   "escala_renderizacao": 1.1,
-  "inspecao": "Após incorporação da distribuição de tarefas declarada em 17/11 (P008), 12 páginas renderizadas; página 12 conferida visualmente em tamanho ampliado, incluindo matriz, auditoria, referências e rodapé.",
+  "inspecao": "Após ajuste do texto da contribuição da IA em 17/11 (P010), página 12 renderizada e conferida visualmente em tamanho ampliado, incluindo matriz, auditoria, referências e rodapé. PDF mantém 12 páginas.",
   "resultado": "Tabelas, fórmulas, gráficos, texto e rodapés legíveis; sem sobreposição, corte ou página indevidamente vazia.",
   "limites": "Contribuições humanas registradas conforme declaração do usuário; fichas da Parte 1 não integram este relatório.",
-  "sha256": "39bab89cc068e80908cd1cfc1ab5ed82b395c49c1aaf5be4a6ea1050775734e1"
+  "sha256": "5e03372e3d1e5954d9d52b713c45c5b495eef6f5027074cd2d474919b6a08424"
 }
