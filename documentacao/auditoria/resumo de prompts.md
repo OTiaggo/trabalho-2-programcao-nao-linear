@@ -45,3 +45,10 @@ Nos próximos registros, incluir identificador, data, pedido literal ou resumo i
 - **Saída:** scripts em `codigo/`, atribuições em `fontes/atribuicoes/`, enunciado em `fontes/` e registros em `documentacao/auditoria/`. README e AGENTS descrevem os caminhos atuais. Notebook e relatório atualizados com os comandos correspondentes.
 - **Validação:** ensaios repetidos sem alterar matemática ou parâmetros; notebook reexecutado, rastreabilidade/hashes e integração conferidos; PDF renderizado novamente para conferir a diagramação após atualizar os caminhos.
 - **Preservação:** resultados, originais e evidências E001 mantidos; nomes históricos e datas originais dos registros preservados.
+
+## P006 — 17/11/2026 — Nome completo do estudante
+
+- **Solicitação literal:** “meu nome completo é tiago oliveira lima”.
+- **Finalidade:** atualizar a identificação para Tiago Oliveira Lima.
+- **Saída:** nome completo no README, AGENTS, identificação do notebook e capa, matriz, rodapés e metadados do relatório; gerador atualizado para preservar a correção em futuras versões.
+- **Validação:** PDF regenerado e conferido; notebook manteve as células de código e suas saídas executadas. Nenhuma fórmula, parâmetro ou resultado numérico alterado.

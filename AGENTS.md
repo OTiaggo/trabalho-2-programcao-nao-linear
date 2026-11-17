@@ -20,10 +20,10 @@ O estudante solicitou manter a estratégia de registrar prompts, contribuições
 
 ## 2. Contexto acadêmico e fonte normativa
 
-- Estudante: Tiago, Bacharelado em Ciência de Dados, Universidade Federal do Ceará.
+- Estudante: Tiago Oliveira Lima, Bacharelado em Ciência de Dados, Universidade Federal do Ceará. Nome completo confirmado pelo usuário em 17/11/2026.
 - Disciplina: Programação Não Linear. Professor: Ricardo Coelho.
 - Atividade: **Segunda Atividade Computacional — Resumos e resolução de problemas irrestritos com métodos de otimização multidimensionais**.
-- Modalidade confirmada: **graduação em dupla**, Tiago (**564988**) e Norberto Frota (**568044**). O usuário informou “norberto frota - 568044”; a outra matrícula corresponde a Tiago pelo contexto da dupla. Divisão de tarefas humanas ainda não informada.
+- Modalidade confirmada: **graduação em dupla**, Tiago Oliveira Lima (**564988**) e Norberto Frota (**568044**). O usuário informou “norberto frota - 568044”; a outra matrícula corresponde a Tiago pelo contexto da dupla. Divisão de tarefas humanas ainda não informada.
 - Prazo no novo PDF: **17 de novembro de 2026 (terça-feira)**. Horário e canal de envio não informados.
 - Comunicação e documentação: português do Brasil.
 

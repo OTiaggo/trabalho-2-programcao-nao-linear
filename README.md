@@ -1,7 +1,7 @@
 # Segunda atividade computacional de Programação Não Linear
 
 Parte 2: gradiente clássico, BFGS e Fletcher–Reeves (FR), com Goldstein
-reutilizada da primeira atividade. Tiago (564988) e Norberto Frota (568044).
+reutilizada da primeira atividade. Tiago Oliveira Lima (564988) e Norberto Frota (568044).
 
 ## Entregáveis
 

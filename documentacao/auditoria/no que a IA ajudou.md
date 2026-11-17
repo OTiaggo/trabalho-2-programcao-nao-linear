@@ -45,3 +45,8 @@
 - Regeneração da entrega e verificação da execução na nova estrutura, preservando as rotinas matemáticas e os resultados.
 
 **Limites:** reorganização não substitui a revisão acadêmica ou a declaração de tarefas humanas ainda pendente.
+
+## 17/11/2026 — Identificação completa (P006)
+
+- Atualização do nome para Tiago Oliveira Lima nos documentos ativos, no notebook e no gerador.
+- Regeneração e conferência do relatório, preservando resultados numéricos e saídas executadas do notebook.
