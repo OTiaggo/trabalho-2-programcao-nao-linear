@@ -4,7 +4,7 @@
 
 Este arquivo orienta a continuidade do **segundo trabalho** de Programação Não Linear. Leia-o antes de implementar, pesquisar ou redigir entregáveis. Atualização inicial: **16/11/2026**.
 
-**Organização atual (17/11/2026):** scripts em `codigo/`; enunciado em `fontes/PNL_projeto_segundo_20262.pdf`; atribuições em `fontes/atribuicoes/`; registros de prompts, erros e contribuições em `documentacao/auditoria/`. Notebook na raiz, resultados em `resultados/` e relatório em `output/pdf/`. Executar comandos pela raiz: `.venv/Scripts/python codigo/executar.py`, `.venv/Scripts/python codigo/testar.py`, `.venv/Scripts/python codigo/preparar_entrega.py` e `.venv/Scripts/python codigo/verificar_entrega.py`. Referências sem esses prefixos nas seções históricas indicam as localizações anteriores; usar este mapa e o README para os caminhos atuais.
+**Organização atual (18/11/2026):** scripts em `codigo/`; enunciado em `fontes/PNL_projeto_segundo_20262.pdf`; atribuições em `fontes/atribuicoes/`; registros de prompts, erros e contribuições em `documentacao/auditoria/`. Notebook na raiz, resultados em `resultados/` e relatório em `output/pdf/`. Na raiz do repositório, `.venv/Scripts/python codigo/rodar_experimentos.py` executa os 24 ensaios principais e os 24 de refinamento. O README indica como regenerar e verificar a entrega. Referências sem esses prefixos nas seções históricas indicam as localizações anteriores.
 
 **Atualização P008 — 17/11/2026:** o usuário declarou a distribuição das tarefas das Partes 1 e 2, registrada abaixo e incorporada à matriz do notebook e do relatório. Isso resolve a pendência de declaração humana citada nos estados históricos; não comprova a presença das cinco fichas da Parte 1 no repositório.
 

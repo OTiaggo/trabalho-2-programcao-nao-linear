@@ -59,3 +59,8 @@
 
 - Incorporação da distribuição de tarefas das Partes 1 e 2 enviada pelo usuário, com o nome completo confirmado de Noberto.
 - Atualização da matriz no notebook e no relatório e das pendências atuais no README e AGENTS; apoio da IA mantido em linha própria.
+
+## 18/11/2026 — Execução em um comando (P010)
+
+- Criação de um comando que reutiliza o executor dos 24 ensaios principais e dos 24 ensaios de refinamento, com as verificações e os parâmetros existentes.
+- Atualização do README para destacar a execução dos ensaios e reunir as instruções de regeneração do PDF e do notebook em uma seção opcional.

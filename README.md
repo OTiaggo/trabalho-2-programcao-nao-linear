@@ -45,21 +45,31 @@ Partes 1 e 2 declarada pelo usuário em 17/11/2026, distinguindo o apoio da IA.
 
 ## Executar em PowerShell
 
-Use Python 3.13. Os comandos abaixo partem da raiz deste repositório.
+Na raiz do repositório, prepare o ambiente com Python 3.13 na primeira vez.
 
 ```powershell
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt
-.venv/Scripts/python codigo/testar.py
-.venv/Scripts/python codigo/executar.py
-.venv/Scripts/python codigo/executar.py --tol-f 0 --max-iter 20000 --saida resultados/parte2_refinamento --sem-graficos
-.venv/Scripts/python codigo/preparar_entrega.py
 ```
 
-O último comando recria o notebook sem saídas e gera o PDF. Execute o
-notebook depois desse comando. Para execução em lote no ambiente local:
+Com o ambiente pronto, execute todos os experimentos com um comando.
 
 ```powershell
+.venv/Scripts/python codigo/rodar_experimentos.py
+```
+
+O comando verifica os métodos e roda os 24 ensaios principais e os 24 de
+refinamento. Consulte `resumo.csv` em `resultados/parte2/` e
+`resultados/parte2_refinamento/`. Os gráficos ficam em `resultados/parte2/`.
+
+<details>
+<summary>Gerar novamente o PDF e o notebook (opcional)</summary>
+
+O primeiro comando recria o PDF e o notebook sem saídas. Os demais executam
+o notebook e verificam a entrega.
+
+```powershell
+.venv/Scripts/python codigo/preparar_entrega.py
 .venv/Scripts/python -m ipykernel install --prefix .venv --name pnl --display-name 'Python (PNL)'
 $env:JUPYTER_PATH = (Resolve-Path .venv/share/jupyter).Path
 .venv/Scripts/python -c "import nbformat; from nbclient import NotebookClient; p='parte 2.ipynb'; n=nbformat.read(p,as_version=4); NotebookClient(n,timeout=600,kernel_name='pnl').execute(); nbformat.write(n,p)"
@@ -69,6 +79,8 @@ $env:JUPYTER_PATH = (Resolve-Path .venv/share/jupyter).Path
 No Jupyter/VS Code, selecione o interpretador `.venv` e execute todas as
 células. As células de refinamento leem os resultados adicionais já gerados.
 O PDF também contém o manual; este README não o substitui.
+
+</details>
 
 ## Configuração e leitura das saídas
 

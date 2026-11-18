@@ -64,3 +64,9 @@ Nos próximos registros, incluir identificador, data, pedido literal ou resumo i
 - **Solicitação literal:** “faça commit e push”.
 - **Finalidade:** versionar e enviar a atualização da matriz de responsabilidades e seus documentos derivados ao remoto configurado.
 - **Validação anterior ao envio:** verificação integrada aprovada em P008, células de código e saídas do notebook preservadas e PDF de 12 páginas conferido; revisão do diff e da situação do remoto antes da publicação.
+
+## P010 — 18/11/2026 — Simplificação da execução dos experimentos
+
+- **Solicitação (resumo fiel):** reduzir a quantidade de comandos que o README apresenta para executar os experimentos.
+- **Saída:** `codigo/rodar_experimentos.py` roda as duas baterias com os parâmetros existentes. `README.md` apresenta o comando após a preparação do ambiente e mantém as instruções de regeneração da entrega em uma seção opcional. `AGENTS.md` registra o comando atual.
+- **Validação:** reexecução em pasta temporária com 48 trajetórias, resumos, metadados e oito gráficos iguais aos versionados. A verificação integrada da entrega também passou.
